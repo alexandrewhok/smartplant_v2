@@ -1,13 +1,33 @@
 //define all general uses like font sizes
 @import "./variables.scss";
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.label{
-    font-family: "LufgaRegular";
-    font-size: 1rem;
-    text-decoration: none;
-  }
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #f4ffef;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+$primary-color: #00a75c;
+$secondary-color: #1b4c4b;
+$white-color: #faffef;
+
+.text-title {
+  font-family: "LufgaSemiBold";
+  font-size: 2rem;
+  color: $secondary-color;
+}
+
+.text-label {
+  font-family: "LufgaRegular";
+  font-size: 1rem;
+  line-height: 1rem;
+  color: $secondary-color;
+}

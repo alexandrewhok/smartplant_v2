@@ -1,0 +1,15 @@
+.home {
+  position: relative;
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+  &-header {
+    margin-top: 8rem;
+  }
+
+  &-no-plants {
+    margin-top: 14rem;
+    width: 100%;
+    text-align: center;
+  }
+}
