@@ -1,17 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import home from "./Pages/home";
 import login from "./Pages/login";
-import './Styles/applications.scss';
+import "./Styles/applications.scss";
 
 function App() {
   return (
     <div className="App">
-    <Router>
-      <Switch>
-        <Route path="/" component={home} exact />
-        <Route path="/login" component={login} exact />
+      <Router>
+        <Switch>
+          <Route path="/" component={home} exact />
+          <Route path="/login" component={login} exact />
         </Switch>
       </Router>
     </div>
