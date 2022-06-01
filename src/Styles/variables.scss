@@ -1,0 +1,12 @@
+//import all fontes in use 
+@font-face {
+    font-family: "LufgaRegular";
+    src: local("LufgaRegular"),
+      url("./fonts/LufgaRegular.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "LufgaSemiBold";
+    src: local("LufgaSemiBold"),
+      url("./fonts/LufgaSemiBold.ttf") format("truetype");
+  }

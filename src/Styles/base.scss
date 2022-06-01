@@ -1,0 +1,13 @@
+//define all general uses like font sizes
+@import "./variables.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.label{
+    font-family: "LufgaRegular";
+    font-size: 1rem;
+    text-decoration: none;
+  }
