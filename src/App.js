@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import home from "./Pages/home";
 import login from "./Pages/login";
+import cacto from "./Pages/cacto";
 import "./Styles/applications.scss";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <Switch>
           <Route path="/" component={home} exact />
           <Route path="/login" component={login} exact />
+          <Route path="/cacto" component={cacto} exact />
         </Switch>
       </Router>
     </div>

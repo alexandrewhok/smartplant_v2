@@ -1,0 +1,77 @@
+@import"../base";
+*{
+    background-color:#F4FFEF;
+ }
+ 
+ 
+ .login{
+     margin-left:1rem;
+     margin-right:1rem;
+    
+     
+     &-intro{
+         text-align:center;
+         margin-top:7rem;
+         margin-bottom:6rem;
+     }
+     
+     &-name{
+         margin-bottom:3rem;
+         &-first{
+             margin-bottom:0.5rem;
+         }
+         &-field{
+             border:none;
+             background: #FFFFFF;
+             box-shadow: 0px 4px 25px rgba(174, 174, 174, 0.25);
+             border-radius: 10px;
+             width:100%;
+             height:5vh;
+     }
+     ::placeholder {
+         font-size:1rem;
+         padding-left:1rem;
+       }
+ }
+ 
+ &-pass{
+     &-first{
+         margin-bottom:0.5rem;
+     }
+    
+     &-field{
+         border:none;
+         background: #FFFFFF;
+         box-shadow: 0px 4px 25px rgba(174, 174, 174, 0.25);
+         border-radius: 10px;
+         width:100%;
+         height:5vh;
+ 
+        
+ }
+ ::placeholder {
+     font-size:1rem;
+     padding-left:1rem;
+   }
+ }
+
+ .button{
+     display:flex;
+    justify-content:center;
+     background-color:#00A75C;
+     color:white;
+     border:none;
+     border-radius: 10px;
+     width:100%;
+     height:6vh;
+     margin-top:8rem;
+     text-decoration:none;
+     font-size:1.8rem;
+ }
+ 
+ }
+ 
+ // <button className="button label" href="/" type="button">Login</button>
+ 
+ 
+ 
