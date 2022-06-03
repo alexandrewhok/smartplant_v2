@@ -31,3 +31,28 @@ $white-color: #faffef;
   line-height: 1rem;
   color: $secondary-color;
 }
+
+.title-plant {
+  font-family: "LufgaSemiBold";
+  font-size: 2rem;
+  color: $white-color;
+}
+
+.text-plant {
+  font-family: "LufgaRegular";
+  font-size: 1rem;
+  line-height: 1rem;
+  color: $white-color;
+}
+
+.text-value {
+  font-family: "LufgaSemiBold";
+  font-size: 3.75rem;
+  color: $white-color;
+}
+
+.text-value2 {
+  font-family: "LufgaSemiBold";
+  font-size: 3.75rem;
+  color: $secondary-color;
+}

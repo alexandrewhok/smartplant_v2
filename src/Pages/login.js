@@ -12,7 +12,7 @@ function login() {
           </div>
           <div className="login-pass">
               <div className="login-pass-first text-label">Password</div>
-              <input className="login-pass-field" type="text" placeholder="************" />        
+              <input className="login-pass-field" type="text" placeholder="*************" />        
           </div>
         
        

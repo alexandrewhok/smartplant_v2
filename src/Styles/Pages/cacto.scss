@@ -1,4 +1,63 @@
+
 .cacto{
-   margin-left:1rem;
+  background-color:$primary-color;
+  &-return{
+     padding-top:2rem;
+     padding-left:1rem;
+  }
+   &-part1{
+      margin-top:2rem;
+      margin-left:1rem;
       
+     &-intro{
+      
+        padding-top:3rem;
+        padding-bottom:1.5rem;
+     }
+
+     &-info1{
+  
+        padding-bottom:3rem;
+     }
+
+     &-info2{
+
+      padding-bottom:3rem;
+     }
+   }
+     &-depo{
+        width:100%;
+        height:40vh;
+        background-color:#F4FFEF;
+        border-radius:40px 40px 0px 0px;
+        padding-left:1rem;
+        padding-righ:1rem;
+        
+        &-intro{
+           padding-top:3rem;
+        }
+&-info{
+   padding-top:3rem;
+   display:flex;
+   flex-direction: row;
+   justify-content:space-between;
+   align-itens:flex-end;
+
+   
+      &-bt{
+      color:white;
+      background-color:green;
+      border:none;
+      width:40%;
+      border-radius:10px 0px 0px 10px;
+   }
+}
+
+        &-msg{
+           padding-top:3rem;
+           width:95%;
+           text-align:center;
+           background:none;
+        }
+     }
 }
