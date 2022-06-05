@@ -6,8 +6,8 @@ function home() {
     <div className="home">
       <div className="home-addbt">
 
-        {/*MUDAR O HREF PARA ADICIONAR A PLANTA*/}
-      <a href="/">
+        
+      <a href="/addplant">
          <img  alt="add" src="images/add.png"
          width="31" height="39"/>
       </a>

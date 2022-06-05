@@ -1,0 +1,36 @@
+
+
+.addplant{
+    background-color: $white-color;
+    &-return{
+        padding-top:2rem;
+        padding-left:1rem;
+     }
+     &-header{
+         text-align: center;
+         margin-top: 2rem;
+     }
+
+    
+     &-info{
+         padding-top: 2rem;
+         margin-bottom:3rem;
+         margin-left: 1rem;
+         margin-right: 1rem;
+         &-first{
+             margin-bottom:0.5rem;
+         }
+         &-field{
+             border:none;
+             background: #FFFFFF;
+             box-shadow: 0px 4px 25px rgba(174, 174, 174, 0.25);
+             border-radius: 10px;
+             width:100%;
+             height:5vh;
+     }
+     ::placeholder {
+         font-size:1rem;
+         padding-left:1rem;
+       }
+}
+}
