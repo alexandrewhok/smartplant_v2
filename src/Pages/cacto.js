@@ -4,7 +4,7 @@ function cacto() {
   return (
     <div className="cacto">
       <div className="cacto-return">
-      <a href="/">
+      <a href="/home">
          <img  alt="back" src="./images/arrow.png"
          width="31" height="39"/>
       </a>

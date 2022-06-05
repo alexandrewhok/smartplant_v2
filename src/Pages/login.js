@@ -16,7 +16,7 @@ function login() {
           </div>
         
        
-          <a  href="/" className="button text-label">Login</a>
+          <a  href="/home" className="button text-label">Login</a>
        
       </div>
     );
